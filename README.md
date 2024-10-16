@@ -6,7 +6,7 @@
   * **Import the Library:** `from transformers import pipeline`
   * **Create a Summarization Pipeline:**  `summarizer = pipeline("summarization")`
   * **Summarize Text:**
-    * `input_text = "Your long input text goes here."
+    * `input_text = "Your long input text goes here."`
     * `summary = summarizer(input_text, max_length=150, min_length=30, do_sample=False)`
     * `print(summary)`
 `
